@@ -33,14 +33,15 @@ var order11372 = {
 	State: "CA",
 	zipCode: 91833,
 
-	Pizza: [
+	Pizza: {
   		Crust: "stuffed crust",
   		pizzaSauce: "creamy garlic alfredo",
-  		Cheese: "double",
-  		Toppings:
+  		Cheese: "double"
+  	},
+  	Toppings: {
     		Veggies:  ["onion", "anchovies", "mushrooms"],
     		Meats:  ["chicken", "bacon"]
-],
+},
 	sideItems: "double fudge brownie dessert",
 	Sauces: ["bbq", "garlic sauce"],
 	specialInstructions: "call 815 at the gate",
@@ -57,7 +58,7 @@ var currentOrders = {
 	order11372
 };
 
-currentOrders.order11821.pizzaSauce = classic marinara add spinach remove sausage;
+currentOrders.order11821.pizzaSauce = "classic marinara add spinach remove sausage";
 
 console.log(order11821);
 /*
