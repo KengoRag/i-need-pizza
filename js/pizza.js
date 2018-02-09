@@ -58,9 +58,10 @@ var currentOrders = {
 	order11372
 };
 
-currentOrders.order11821.pizzaSauce = "classic marinara add spinach remove sausage";
+currentOrders.order11821.Pizza.pizzaSauce = "classic marinara add spinach remove sausage";
+order11821.orderTime = "20 minutes"
 
-console.log(order11821);
+console.log(currentOrders);
 /*
 * Make the changes to the currentOrders object based on the ReadMe
 * Run your file with node pizza.js
